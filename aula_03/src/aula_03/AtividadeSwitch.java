@@ -47,7 +47,7 @@ public class AtividadeSwitch {
 				resultado = num1 / num2;
 				System.out.printf("\nO resultado é de: %.1f / %.1f = %.1f", num1, num2, resultado );
 			}else {
-				System.out.println("Operação Inválida por 0!");
+				System.out.println("Operação Inválida: Não se divide por 0!");
 			}
 			break;
 			
