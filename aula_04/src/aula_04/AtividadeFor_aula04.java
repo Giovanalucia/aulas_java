@@ -6,6 +6,8 @@ public class AtividadeFor_aula04 {
 
 	public static void main(String[] args) {
 		
+		//2) Atividade Laços de Repetição FOR
+		
 		Scanner leia = new Scanner(System.in);
 		
 		int numeroPar = 0;

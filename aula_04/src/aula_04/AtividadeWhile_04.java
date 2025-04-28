@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class AtividadeWhile_04 {
 
     public static void main(String[] args) {
+    	
+    	//3) Atividade Laços de Repetição WHILE
         
         Scanner leia = new Scanner(System.in);
         
@@ -14,7 +16,7 @@ public class AtividadeWhile_04 {
         System.out.print("Digite uma idade: ");
         int idade = leia.nextInt();
         
-        //Verifica a condição se verdadeiro volta para bloco 1
+        //Verifica a condição e se for verdadeiro volta para bloco 1
         while (idade >= 0) {
             // Atualiza contadores
             if (idade < 21) {
@@ -23,12 +25,12 @@ public class AtividadeWhile_04 {
                 pessoasMaior50++;
             }
             
-            // Pede próxima idade (sem mostrar resultados)
+            // Pede próxima idade 
             System.out.print("Digite outra idade (ou um número negativo para sair): ");
             idade = leia.nextInt();
         }
         
-        // SÓ AQUI MOSTRA OS RESULTADOS (depois do loop)
+        // Exibindo resultados
         System.out.println("\n    ``   RESULTADOS   ´´   ");
         System.out.println("Total de menores de 21 anos: " + pessoasMenor21);
         System.out.println("Total de maiores de 50 anos: " + pessoasMaior50);
